@@ -3,8 +3,8 @@ const CONFIG = {
   duration: 10,
   gif: true,
   record: false,
-  width: 600,
-  height: 600,
+  width: window.innerWidth,
+  height: window.innerHeight,
   clearScreen: true,
   animate: true,
   interations: 100,
@@ -215,7 +215,7 @@ class Emitter {
 }
 
 let emitters = [];
-let emitterCount = 10;
+let emitterCount = 30;
 
 let explosions = [];
 
